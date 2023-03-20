@@ -31,7 +31,6 @@ jobs:
         with:
           languages: ${{ matrix.language }}
           queries: +advanced-security/codeql-queries/java/CWE-079/XSSJSPLenient.ql@main, \
-                   cwe/CWE-119/, \
                    cwe/CWE-200/, \
                    cwe/CWE-434/, \
                    security-extended/
